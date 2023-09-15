@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './register.css'; // You can create a separate CSS file for registration
+import './register.css'; 
 import {Link,Routes, Route, useNavigate} from 'react-router-dom';
 
 function Register() {
@@ -17,8 +17,6 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform registration logic here, such as sending data to a server
-    // You can create an object containing all the user data and send it to an API
     const userData = {
       firstName,
       lastName,
@@ -32,9 +30,7 @@ function Register() {
       password,
     };
 
-    // Send userData to the server or handle registration as needed
-
-    // Clear form fields after submission
+   
     setFirstName("");
     setLastName("");
     setAge("");
