@@ -1,6 +1,4 @@
-/* register.css */
 
-/* Style the form container */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -11,14 +9,13 @@ form {
     background-color: #fff;
   }
   
-  /* Style form labels */
+
   label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
   }
   
-  /* Style input fields */
   input[type="text"],
   input[type="number"],
   input[type="email"],
@@ -30,7 +27,6 @@ form {
     border-radius: 3px;
   }
   
-  /* Style the submit button */
   button[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -45,8 +41,7 @@ form {
   button[type="submit"]:hover {
     background-color: #0056b3;
   }
-  
-  /* Style form container */
+
   .form-container {
     display: flex;
     flex-direction: column;
@@ -56,14 +51,13 @@ form {
     background-color: #f0f0f0;
   }
   
-  /* Style the content container (overlay) */
+
   .content {
     text-align: center;
     color: #333;
   }
   
-  /* Additional styling for labels, inputs, or buttons can be added as needed */
- /* App.css */
+
 
 
   
