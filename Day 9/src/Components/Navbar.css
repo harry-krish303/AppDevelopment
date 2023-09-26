@@ -1,0 +1,25 @@
+
+.navbar {
+    overflow-x: hidden;
+    position: relative;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content:right;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    border: none;
+    color: #D32f2f;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
