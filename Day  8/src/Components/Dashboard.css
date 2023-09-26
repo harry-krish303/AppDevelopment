@@ -1,0 +1,45 @@
+.dashboard{
+    display: flex;
+}
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  .content h1{
+    font-weight: 600;
+    margin-left: -20em;
+  }
+  
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  
+  .grid-list {
+    align-items: center;
+    background-color: black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 18em;
+  }
+  
+  .grid-list h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .count {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #007bff; 
+  }
+  
