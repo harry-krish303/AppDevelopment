@@ -1,0 +1,60 @@
+/* Login.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(50%); /* Optional: Adjust video brightness */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 60px;
+  }
+  
+  .content {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:100vh;
+  }
+  
+  .content h3 {
+    text-align: center;
+  }
+  
+  .content form {
+    margin-top: 20px;
+    
+  }
+  
+  .content form label {
+    font-weight: bold;
+  }
+  
+  .content form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .content form .btn-primary {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+  
